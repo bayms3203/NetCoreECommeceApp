@@ -29,6 +29,10 @@ namespace TestMVCApp.Controllers
     {
 
 
+        public IActionResult Test() {
+            return View();
+        }
+
 
     }
 }
